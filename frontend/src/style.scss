@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    // background-image: url(img/115.jpg);
+}
+
+.btn {
+    @apply font-semibold py-2 px-4 rounded-lg;
+}
+.btn-green {
+    @apply bg-green-500 hover:bg-green-600  text-white;
+}
