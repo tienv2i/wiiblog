@@ -11,18 +11,34 @@
 	<title>Document</title>
 	
 </head>
-<body>
-	<nav class="bg-white shadow-lg">
-		<div class="max-w-6xl mx-auto md:px-4 py-2">
-			<div class="flex justify-between">
-				<div class="flex space-x-7">
-						<a href="{{ request.site.root_url }}" class="flex item-center space-x-2">
-							<img src="{% static 'img/logo.png' %}" alt="Logo" class="h-8 md:h-12" />	
-						</a>
+<body class="bg-gray-50">
+	<header>
+		<section>
+
+		</section>
+		<nav class="bg-white shadow-lg mb-5">
+			<div class="max-w-6xl mx-auto md:px-4 py-2">
+				<div class="flex justify-between">
+					<div class="flex space-x-7">
+							<a href="{{ request.site.root_url }}" class="flex item-center space-x-2">
+								<img src="{% static 'img/logo.png' %}" alt="Logo" class="h-8 md:h-12" />	
+							</a>
+					</div>
 				</div>
 			</div>
-		</div>
-	</nav>
+		</nav>
+		<section>
+
+		</section>
+	</header>
+	<main class="max-w-xl">
+		<section>
+			
+		</section>
+	</main>
+	<aside>
+		Side bar
+	</aside>
 	{% render_bundle 'main' 'js' %}
 </body>	
 </html>

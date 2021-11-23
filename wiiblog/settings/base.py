@@ -97,7 +97,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'wiiblogdb',
         'USER': 'wiiblog',
-        'PASSWORD': 'wiiblog123'
+        'PASSWORD': 'anhtien!23'
     }
 }
 

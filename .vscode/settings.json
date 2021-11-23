@@ -2,4 +2,21 @@
     "css.validate": false, // Disable css built-in lint
     "stylelint.enable": true, // Enable sytlelint
     "scss.validate": false, // Disable scss lint (optional if using scss)
+    "python.jediEnabled": false,
+    "files.autoSave": "afterDelay",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.minimap.enabled": true,
+    "editor.largeFileOptimizations": false,
+    "html.format.indentInnerHtml": true,
+    "html.format.indentHandlebars": true,
+    "emmet.includeLanguages": {
+      "django-html": "html"
+    },
+    "[django-html]": {
+  
+    },
+    "files.associations": {
+      "*.html": "html"
+    }
 }
