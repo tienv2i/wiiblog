@@ -1,13 +1,13 @@
 @tailwind base;
 @layer base {
     h1 {
-      @apply text-2xl;
+      @apply font-semibold text-6xl;
     }
     h2 {
-      @apply text-xl;
+      @apply font-semibold text-4xl;
     }
     h3 {
-      @apply text-lg;
+      @apply font-semibold text-2xl;
     }
     a {
       @apply text-blue-600;
@@ -25,4 +25,43 @@ body {
 }
 .btn-green {
     @apply bg-green-500 hover:bg-green-600  text-white;
+}
+aside {
+  section.widget {
+    header {
+      @apply font-semibold text-lg py-4 px-2 border-b bg-gray-700 text-gray-100;
+    }
+
+  }
+  ul {
+    li {
+      @apply py-4 px-2 border-b;
+      &:last-child {
+        @apply border-b-0;
+      }
+    }
+  }
+}
+
+nav.navbar {
+  ul {
+
+    li {
+      &:first-child {
+        @apply ml-4;
+      }
+
+      @apply my-auto p-2 font-semibold text-lg;
+
+      &:hover {
+        @apply bg-black;
+      }
+
+      a {
+        @apply text-gray-100;
+      }
+
+    }
+
+  }
 }

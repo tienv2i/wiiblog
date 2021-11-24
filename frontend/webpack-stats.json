@@ -1,42 +1,132 @@
 {
   "status": "done",
   "assets": {
-    "css/main.35179b30.css": {
-      "name": "css/main.35179b30.css",
-      "path": "/home/huynhat/wiiblog/frontend/static/css/main.35179b30.css",
-      "publicPath": "/static/css/main.35179b30.css"
+    "css/main.10ef8171.css": {
+      "name": "css/main.10ef8171.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.10ef8171.css",
+      "publicPath": "/static/css/main.10ef8171.css"
     },
-    "js/main.bc143f32.js": {
-      "name": "js/main.bc143f32.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/main.bc143f32.js",
-      "publicPath": "/static/js/main.bc143f32.js"
+    "js/main.128e5c64.js": {
+      "name": "js/main.128e5c64.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.128e5c64.js",
+      "publicPath": "/static/js/main.128e5c64.js"
     },
-    "js/runtime.bc143f32.js": {
-      "name": "js/runtime.bc143f32.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.bc143f32.js",
-      "publicPath": "/static/js/runtime.bc143f32.js"
+    "js/runtime.128e5c64.js": {
+      "name": "js/runtime.128e5c64.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.128e5c64.js",
+      "publicPath": "/static/js/runtime.128e5c64.js"
     },
-    "css/main.717cb974.css": {
-      "name": "css/main.717cb974.css",
-      "path": "/home/huynhat/wiiblog/frontend/static/css/main.717cb974.css",
-      "publicPath": "/static/css/main.717cb974.css"
+    "css/main.36d141cb.css": {
+      "name": "css/main.36d141cb.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.36d141cb.css",
+      "publicPath": "/static/css/main.36d141cb.css"
     },
-    "js/main.c536ecce.js": {
-      "name": "js/main.c536ecce.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/main.c536ecce.js",
-      "publicPath": "/static/js/main.c536ecce.js"
+    "js/main.031f2f09.js": {
+      "name": "js/main.031f2f09.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.031f2f09.js",
+      "publicPath": "/static/js/main.031f2f09.js"
     },
-    "js/runtime.c536ecce.js": {
-      "name": "js/runtime.c536ecce.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.c536ecce.js",
-      "publicPath": "/static/js/runtime.c536ecce.js"
+    "js/runtime.031f2f09.js": {
+      "name": "js/runtime.031f2f09.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.031f2f09.js",
+      "publicPath": "/static/js/runtime.031f2f09.js"
+    },
+    "css/main.a7c617e2.css": {
+      "name": "css/main.a7c617e2.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.a7c617e2.css",
+      "publicPath": "/static/css/main.a7c617e2.css"
+    },
+    "js/main.c6f364c8.js": {
+      "name": "js/main.c6f364c8.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.c6f364c8.js",
+      "publicPath": "/static/js/main.c6f364c8.js"
+    },
+    "js/runtime.c6f364c8.js": {
+      "name": "js/runtime.c6f364c8.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.c6f364c8.js",
+      "publicPath": "/static/js/runtime.c6f364c8.js"
+    },
+    "css/main.52e374f3.css": {
+      "name": "css/main.52e374f3.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.52e374f3.css",
+      "publicPath": "/static/css/main.52e374f3.css"
+    },
+    "js/main.460a061a.js": {
+      "name": "js/main.460a061a.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.460a061a.js",
+      "publicPath": "/static/js/main.460a061a.js"
+    },
+    "js/runtime.460a061a.js": {
+      "name": "js/runtime.460a061a.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.460a061a.js",
+      "publicPath": "/static/js/runtime.460a061a.js"
+    },
+    "css/main.feb773c6.css": {
+      "name": "css/main.feb773c6.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.feb773c6.css",
+      "publicPath": "/static/css/main.feb773c6.css"
+    },
+    "js/main.61d38665.js": {
+      "name": "js/main.61d38665.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.61d38665.js",
+      "publicPath": "/static/js/main.61d38665.js"
+    },
+    "js/runtime.61d38665.js": {
+      "name": "js/runtime.61d38665.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.61d38665.js",
+      "publicPath": "/static/js/runtime.61d38665.js"
+    },
+    "css/main.a70bceca.css": {
+      "name": "css/main.a70bceca.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.a70bceca.css",
+      "publicPath": "/static/css/main.a70bceca.css"
+    },
+    "js/main.00d2efa7.js": {
+      "name": "js/main.00d2efa7.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.00d2efa7.js",
+      "publicPath": "/static/js/main.00d2efa7.js"
+    },
+    "js/runtime.00d2efa7.js": {
+      "name": "js/runtime.00d2efa7.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.00d2efa7.js",
+      "publicPath": "/static/js/runtime.00d2efa7.js"
+    },
+    "css/main.d89ed9c5.css": {
+      "name": "css/main.d89ed9c5.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.d89ed9c5.css",
+      "publicPath": "/static/css/main.d89ed9c5.css"
+    },
+    "js/main.dc70c4ce.js": {
+      "name": "js/main.dc70c4ce.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.dc70c4ce.js",
+      "publicPath": "/static/js/main.dc70c4ce.js"
+    },
+    "js/runtime.dc70c4ce.js": {
+      "name": "js/runtime.dc70c4ce.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.dc70c4ce.js",
+      "publicPath": "/static/js/runtime.dc70c4ce.js"
+    },
+    "css/main.d13875ba.css": {
+      "name": "css/main.d13875ba.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.d13875ba.css",
+      "publicPath": "/static/css/main.d13875ba.css"
+    },
+    "js/main.8adce812.js": {
+      "name": "js/main.8adce812.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.8adce812.js",
+      "publicPath": "/static/js/main.8adce812.js"
+    },
+    "js/runtime.8adce812.js": {
+      "name": "js/runtime.8adce812.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.8adce812.js",
+      "publicPath": "/static/js/runtime.8adce812.js"
     }
   },
   "chunks": {
     "main": [
-      "js/runtime.c536ecce.js",
-      "css/main.717cb974.css",
-      "js/main.c536ecce.js"
+      "js/runtime.8adce812.js",
+      "css/main.d13875ba.css",
+      "js/main.8adce812.js"
     ]
   },
   "publicPath": "/static/"

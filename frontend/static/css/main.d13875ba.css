@@ -579,18 +579,21 @@ video {
 }
 
 h1 {
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 3.75rem;
+  line-height: 1;
+  font-weight: 600;
 }
 
 h2 {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 600;
 }
 
 h3 {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
 }
 
 a {
@@ -32125,6 +32128,56 @@ a {
 .btn-green {
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+aside section.widget header {
+  border-bottom-width: 1px;
+  --tw-bg-opacity: 1;
+  background-color: rgba(55, 65, 81, var(--tw-bg-opacity));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgba(243, 244, 246, var(--tw-text-opacity));
+}
+
+aside ul li {
+  border-bottom-width: 1px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+aside ul li:last-child {
+  border-bottom-width: 0px;
+}
+
+nav.navbar ul li {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+nav.navbar ul li:first-child {
+  margin-left: 1rem;
+}
+
+nav.navbar ul li:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+}
+
+nav.navbar ul li a {
+  --tw-text-opacity: 1;
+  color: rgba(243, 244, 246, var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
