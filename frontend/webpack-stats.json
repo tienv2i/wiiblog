@@ -1,133 +1,120 @@
 {
   "status": "done",
   "assets": {
-    "css/main.10ef8171.css": {
-      "name": "css/main.10ef8171.css",
-      "path": "/home/huynhat/wiiblog/frontend/static/css/main.10ef8171.css",
-      "publicPath": "/static/css/main.10ef8171.css"
+    "css/main.720b68d5.css": {
+      "name": "css/main.720b68d5.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.720b68d5.css",
+      "publicPath": "/static/css/main.720b68d5.css"
     },
-    "js/main.128e5c64.js": {
-      "name": "js/main.128e5c64.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/main.128e5c64.js",
-      "publicPath": "/static/js/main.128e5c64.js"
+    "js/main.1c5617bd.js": {
+      "name": "js/main.1c5617bd.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.1c5617bd.js",
+      "publicPath": "/static/js/main.1c5617bd.js"
     },
-    "js/runtime.128e5c64.js": {
-      "name": "js/runtime.128e5c64.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.128e5c64.js",
-      "publicPath": "/static/js/runtime.128e5c64.js"
+    "js/runtime.1c5617bd.js": {
+      "name": "js/runtime.1c5617bd.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.1c5617bd.js",
+      "publicPath": "/static/js/runtime.1c5617bd.js"
     },
-    "css/main.36d141cb.css": {
-      "name": "css/main.36d141cb.css",
-      "path": "/home/huynhat/wiiblog/frontend/static/css/main.36d141cb.css",
-      "publicPath": "/static/css/main.36d141cb.css"
+    "css/main.d7b5a463.css": {
+      "name": "css/main.d7b5a463.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.d7b5a463.css",
+      "publicPath": "/static/css/main.d7b5a463.css"
     },
-    "js/main.031f2f09.js": {
-      "name": "js/main.031f2f09.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/main.031f2f09.js",
-      "publicPath": "/static/js/main.031f2f09.js"
+    "js/main.5c9a3040.js": {
+      "name": "js/main.5c9a3040.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.5c9a3040.js",
+      "publicPath": "/static/js/main.5c9a3040.js"
     },
-    "js/runtime.031f2f09.js": {
-      "name": "js/runtime.031f2f09.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.031f2f09.js",
-      "publicPath": "/static/js/runtime.031f2f09.js"
+    "js/runtime.5c9a3040.js": {
+      "name": "js/runtime.5c9a3040.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.5c9a3040.js",
+      "publicPath": "/static/js/runtime.5c9a3040.js"
     },
-    "css/main.a7c617e2.css": {
-      "name": "css/main.a7c617e2.css",
-      "path": "/home/huynhat/wiiblog/frontend/static/css/main.a7c617e2.css",
-      "publicPath": "/static/css/main.a7c617e2.css"
+    "css/main.1db60496.css": {
+      "name": "css/main.1db60496.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.1db60496.css",
+      "publicPath": "/static/css/main.1db60496.css"
     },
-    "js/main.c6f364c8.js": {
-      "name": "js/main.c6f364c8.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/main.c6f364c8.js",
-      "publicPath": "/static/js/main.c6f364c8.js"
+    "js/main.de618524.js": {
+      "name": "js/main.de618524.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.de618524.js",
+      "publicPath": "/static/js/main.de618524.js"
     },
-    "js/runtime.c6f364c8.js": {
-      "name": "js/runtime.c6f364c8.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.c6f364c8.js",
-      "publicPath": "/static/js/runtime.c6f364c8.js"
+    "js/runtime.de618524.js": {
+      "name": "js/runtime.de618524.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.de618524.js",
+      "publicPath": "/static/js/runtime.de618524.js"
     },
-    "css/main.52e374f3.css": {
-      "name": "css/main.52e374f3.css",
-      "path": "/home/huynhat/wiiblog/frontend/static/css/main.52e374f3.css",
-      "publicPath": "/static/css/main.52e374f3.css"
+    "css/main.4710efc8.css": {
+      "name": "css/main.4710efc8.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.4710efc8.css",
+      "publicPath": "/static/css/main.4710efc8.css"
     },
-    "js/main.460a061a.js": {
-      "name": "js/main.460a061a.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/main.460a061a.js",
-      "publicPath": "/static/js/main.460a061a.js"
+    "js/main.0c914531.js": {
+      "name": "js/main.0c914531.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.0c914531.js",
+      "publicPath": "/static/js/main.0c914531.js"
     },
-    "js/runtime.460a061a.js": {
-      "name": "js/runtime.460a061a.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.460a061a.js",
-      "publicPath": "/static/js/runtime.460a061a.js"
+    "js/runtime.0c914531.js": {
+      "name": "js/runtime.0c914531.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.0c914531.js",
+      "publicPath": "/static/js/runtime.0c914531.js"
     },
-    "css/main.feb773c6.css": {
-      "name": "css/main.feb773c6.css",
-      "path": "/home/huynhat/wiiblog/frontend/static/css/main.feb773c6.css",
-      "publicPath": "/static/css/main.feb773c6.css"
+    "css/main.8cab0197.css": {
+      "name": "css/main.8cab0197.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.8cab0197.css",
+      "publicPath": "/static/css/main.8cab0197.css"
     },
-    "js/main.61d38665.js": {
-      "name": "js/main.61d38665.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/main.61d38665.js",
-      "publicPath": "/static/js/main.61d38665.js"
+    "js/main.da4f3257.js": {
+      "name": "js/main.da4f3257.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.da4f3257.js",
+      "publicPath": "/static/js/main.da4f3257.js"
     },
-    "js/runtime.61d38665.js": {
-      "name": "js/runtime.61d38665.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.61d38665.js",
-      "publicPath": "/static/js/runtime.61d38665.js"
+    "js/runtime.da4f3257.js": {
+      "name": "js/runtime.da4f3257.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.da4f3257.js",
+      "publicPath": "/static/js/runtime.da4f3257.js"
     },
-    "css/main.a70bceca.css": {
-      "name": "css/main.a70bceca.css",
-      "path": "/home/huynhat/wiiblog/frontend/static/css/main.a70bceca.css",
-      "publicPath": "/static/css/main.a70bceca.css"
+    "css/main.a9109376.css": {
+      "name": "css/main.a9109376.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.a9109376.css",
+      "publicPath": "/static/css/main.a9109376.css"
     },
-    "js/main.00d2efa7.js": {
-      "name": "js/main.00d2efa7.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/main.00d2efa7.js",
-      "publicPath": "/static/js/main.00d2efa7.js"
+    "js/main.e670aeec.js": {
+      "name": "js/main.e670aeec.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.e670aeec.js",
+      "publicPath": "/static/js/main.e670aeec.js"
     },
-    "js/runtime.00d2efa7.js": {
-      "name": "js/runtime.00d2efa7.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.00d2efa7.js",
-      "publicPath": "/static/js/runtime.00d2efa7.js"
+    "js/runtime.e670aeec.js": {
+      "name": "js/runtime.e670aeec.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.e670aeec.js",
+      "publicPath": "/static/js/runtime.e670aeec.js"
     },
-    "css/main.d89ed9c5.css": {
-      "name": "css/main.d89ed9c5.css",
-      "path": "/home/huynhat/wiiblog/frontend/static/css/main.d89ed9c5.css",
-      "publicPath": "/static/css/main.d89ed9c5.css"
+    "css/main.514f42f9.css": {
+      "name": "css/main.514f42f9.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.514f42f9.css",
+      "publicPath": "/static/css/main.514f42f9.css"
     },
-    "js/main.dc70c4ce.js": {
-      "name": "js/main.dc70c4ce.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/main.dc70c4ce.js",
-      "publicPath": "/static/js/main.dc70c4ce.js"
+    "js/main.30731111.js": {
+      "name": "js/main.30731111.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.30731111.js",
+      "publicPath": "/static/js/main.30731111.js"
     },
-    "js/runtime.dc70c4ce.js": {
-      "name": "js/runtime.dc70c4ce.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.dc70c4ce.js",
-      "publicPath": "/static/js/runtime.dc70c4ce.js"
-    },
-    "css/main.d13875ba.css": {
-      "name": "css/main.d13875ba.css",
-      "path": "/home/huynhat/wiiblog/frontend/static/css/main.d13875ba.css",
-      "publicPath": "/static/css/main.d13875ba.css"
-    },
-    "js/main.8adce812.js": {
-      "name": "js/main.8adce812.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/main.8adce812.js",
-      "publicPath": "/static/js/main.8adce812.js"
-    },
-    "js/runtime.8adce812.js": {
-      "name": "js/runtime.8adce812.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.8adce812.js",
-      "publicPath": "/static/js/runtime.8adce812.js"
+    "js/runtime.30731111.js": {
+      "name": "js/runtime.30731111.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.30731111.js",
+      "publicPath": "/static/js/runtime.30731111.js"
     }
   },
   "chunks": {
     "main": [
-      "js/runtime.8adce812.js",
-      "css/main.d13875ba.css",
-      "js/main.8adce812.js"
+      "js/runtime.30731111.js",
+      "css/main.514f42f9.css",
+      "js/main.30731111.js"
     ]
   },
-  "publicPath": "/static/"
+  "publicPath": "/static/",
+  "error": "ModuleBuildError",
+  "message": "Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):\nSyntaxError\n\n(49:24) /home/huynhat/wiiblog/frontend/src/style.scss The `px-` class does not exist, but `px-0` does. If you're sure that `px-` exists, make sure that any `@import` statements are being properly processed before Tailwind CSS sees your CSS, as `@apply` can only be used for classes in the same CSS tree.\n\n  47 | }\n  48 | nav.navbar ul li a {\n> 49 |   @apply text-gray-100 px- my-auto;\n     |                        ^\n  50 | }\n  51 | nav.navbar span.site-brand a {\n"
 }

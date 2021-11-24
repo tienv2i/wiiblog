@@ -35,7 +35,7 @@ aside {
   }
   ul {
     li {
-      @apply py-4 px-2 border-b;
+      @apply border-b;
       &:last-child {
         @apply border-b-0;
       }
@@ -45,23 +45,31 @@ aside {
 
 nav.navbar {
   ul {
-
     li {
       &:first-child {
         @apply ml-4;
       }
 
-      @apply my-auto p-2 font-semibold text-lg;
+      @apply flex my-auto h-full font-semibold text-lg;
 
       &:hover {
         @apply bg-black;
       }
 
       a {
-        @apply text-gray-100;
+        @apply text-gray-100 px-4 my-auto;
+        
       }
 
     }
 
+  }
+  span.site-brand {
+    a {
+      @apply p-2 flex h-full;
+      img {
+        @apply h-12 my-auto;
+      }
+    }
   }
 }

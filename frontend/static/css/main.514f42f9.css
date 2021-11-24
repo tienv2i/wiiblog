@@ -32147,10 +32147,6 @@ aside section.widget header {
 
 aside ul li {
   border-bottom-width: 1px;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 aside ul li:last-child {
@@ -32160,7 +32156,8 @@ aside ul li:last-child {
 nav.navbar ul li {
   margin-top: auto;
   margin-bottom: auto;
-  padding: 0.5rem;
+  display: flex;
+  height: 100%;
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 600;
@@ -32176,8 +32173,24 @@ nav.navbar ul li:hover {
 }
 
 nav.navbar ul li a {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
   --tw-text-opacity: 1;
   color: rgba(243, 244, 246, var(--tw-text-opacity));
+}
+
+nav.navbar span.site-brand a {
+  display: flex;
+  height: 100%;
+  padding: 0.5rem;
+}
+
+nav.navbar span.site-brand a img {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 3rem;
 }
 
 @media (min-width: 640px) {
