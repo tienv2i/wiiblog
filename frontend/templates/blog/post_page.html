@@ -1,26 +1,30 @@
 {% extends 'base.html' %}
 {% load static wagtailcore_tags wagtailimages_tags %}
 {% block 'content' %}
-    <h1>{{page.title}}</h1>
-    {% image page.feed_image original %}
-    <div class="tags">
-        <h3>Tags</h3>
-        <ul>
+<article class="flex flex-col w-full bg-white border">
+    <div class="flex w-full mb-4">
+        {% image page.feed_image original class="w-full" %}
+    </div>
+    <div class="px-4 py-2 tags">
+        <h3 class="px-2 font-semibold text-lg">Tags</h3>
+        <ul class="flex flex-col border last:border-b-0 m-5">
             {% for tag in page.tags.all %}
-                <li>
+                <li class="px-2 py-2 border-b">
                     {{ tag }}
                 </li>
             {% endfor %}
         </ul>
     </div>
-    <div class="categories">
-        <h3>Categories</h3>
-        <ul>
-        {% for category in page.categories.all %}
-            <li>
-                {{category.blog_category.name}}
-            </li>
-        {% endfor %}
+    <div class="px-4 py-2 categories">
+        <h3 class="px-2 font-semibold text-lg">Categories</h3>
+        <ul class="flex flex-col border last:border-b-0 m-5">
+            {% for category in page.categories.all %}
+                <li class="px-2 py-2 border-b">
+                    {{category.blog_category.name}}
+                </li>
+            {% endfor %}
         </ul>
     </div>
+</article>
+
 {% endblock 'content' %}

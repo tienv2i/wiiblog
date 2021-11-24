@@ -2,9 +2,20 @@
 {% load wagtailcore_tags %}
 
 {% block 'content' %}
-    <h1>Title: {{ page.title }}</h1>
-    <div class="intro">Description: {{ page.description }}</div>
-    {% for post in page.get_children %}
-        <a href="{% pageurl post %}">{{ post.title }}</a>
-    {% endfor %}
+<article class="w-full bg-white border">
+    <header class="border-b font-semibold text-xl px-2 py-4">Title: {{ page.title }}</header>
+    <div class="intro px-2 py-2 border-b">Description: {{ page.description }}</div>
+    <div class="px-2 py-2 font-semibold text-xl">
+        Posts list:
+    </div>
+    <ul class="flex flex-col border last:border-b-0 m-5">
+        {% for post in page.get_children %}
+        <li class="px-2 py-2 border-b">
+            <a href="{% pageurl post %}" class="">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+
+</article>
+
 {% endblock %}
