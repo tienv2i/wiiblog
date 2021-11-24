@@ -17,8 +17,7 @@ urlpatterns = [
 
     path('search/', search_views.search, name='search'),
 
-    path('', TemplateView.as_view(template_name = 'landing.html'))
-
+    
 ]
 
 

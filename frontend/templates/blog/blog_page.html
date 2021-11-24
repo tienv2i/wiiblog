@@ -2,9 +2,8 @@
 {% load wagtailcore_tags %}
 
 {% block 'content' %}
-<article class="w-full bg-white border">
-    <header class="border-b font-semibold text-xl px-2 py-4">Title: {{ page.title }}</header>
-    <div class="intro px-2 py-2 border-b">Description: {{ page.description }}</div>
+
+<section class="w-full bg-white border">
     <div class="px-2 py-2 font-semibold text-xl">
         Posts list:
     </div>
@@ -16,6 +15,6 @@
         {% endfor %}
     </ul>
 
-</article>
+</section>
 
 {% endblock %}

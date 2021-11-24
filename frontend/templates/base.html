@@ -10,21 +10,24 @@
     <title>{{page.title}}</title>
 </head>
 <body class="bg-gray-100">
-    <header class="bg-white">
-        <div class="max-w-6xl py-4 mx-auto">
-            <h1 class="font-semibold text-4xl">
+    <header>
+        {% include 'navbar.html' %}
+        <section class="max-w-6xl mx-auto mt-4 bg-white border">
+            <h1 class="font-semibold text-4xl p-4">
                 {{page.title}}
             </h1>
-            <span class="font-2xl">
+            {% if page.description %}
+            <div class="font-2xl p-4 pt-0">
                 {{page.description}}
-            </span>
-        </div>
+            </div>
+            {% endif %}
+        </section>
     </header>
     <div id="content" class="flex flex-wrap max-w-6xl py-4 mx-auto space-w-2 space-y-4 md:space-y-0">
-        <main class="flex w-full p-4 md:w-2/3 space-y-4">
+        <main class="flex w-full p-4 md:pl-0 md:w-2/3 space-y-4">
             {% block 'content' %}{% endblock %}
         </main>
-        <aside class="flex flex-col w-full p-4 md:w-1/3 space-y-4 space-w-2">
+        <aside class="flex flex-col w-full p-4 md:pr-0 md:w-1/3 space-y-4 space-w-2">
             <section class="bg-white border">
                 <header class="font-semibold text-lg py-4 px-2 border-b">This is header 1</header>
                 <div class="py-4 px-2 ">
@@ -49,6 +52,13 @@
         </aside>
         
     </div>
+    <footer class="bg-white border-t">
+        <div class="max-w-6xl py-2 mx-auto text-center">
+            <span class="font-2xl ">
+                Powered by HuynhAT
+            </span>
+        </div>
+    </footer>
     {% render_bundle 'main' 'js' %}
 </body>
 </html>
