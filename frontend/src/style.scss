@@ -9,9 +9,6 @@
     h3 {
       @apply font-semibold text-2xl;
     }
-    a {
-      @apply text-blue-600;
-    }
 }
 @tailwind components;
 @tailwind utilities;
@@ -26,50 +23,64 @@ body {
 .btn-green {
     @apply bg-green-500 hover:bg-green-600  text-white;
 }
-aside {
-  section.widget {
-    header {
-      @apply font-semibold text-lg py-4 px-2 border-b bg-gray-700 text-gray-100;
-    }
+// #responsive-navbar {
+//   max-height: 0px;
+//   transition: max-height 1s;
+// }
+// #responsive-navbar.active{
+//   max-height: 400px;
+// }
 
-  }
-  ul {
-    li {
-      @apply border-b;
-      &:last-child {
-        @apply border-b-0;
-      }
-    }
-  }
-}
+// nav.navbar {
+//   ul > li:first-child {
+//     @apply ml-4;
+//   }
+// }
 
-nav.navbar {
-  ul {
-    li {
-      &:first-child {
-        @apply ml-4;
-      }
+// aside {
+//   section.widget {
+//     header {
+//       @apply font-semibold text-lg py-4 px-2 border-b bg-gray-700 text-gray-100;
+//     }
 
-      @apply flex my-auto h-full font-semibold text-lg;
+//   }
+//   ul {
+//     li {
+//       @apply border-b;
+//       &:last-child {
+//         @apply border-b-0;
+//       }
+//     }
+//   }
+// }
 
-      &:hover {
-        @apply bg-black;
-      }
+// nav.navbar {
+//   ul {
+//     li {
+//       &:first-child {
+//         @apply ml-4;
+//       }
 
-      a {
-        @apply text-gray-100 px-4 my-auto;
+//       @apply flex my-auto h-full font-semibold text-lg;
+
+//       &:hover {
+//         @apply bg-black;
+//       }
+
+//       a {
+//         @apply text-gray-100 px-4 my-auto;
         
-      }
+//       }
 
-    }
+//     }
 
-  }
-  span.site-brand {
-    a {
-      @apply p-2 flex h-full;
-      img {
-        @apply h-12 my-auto;
-      }
-    }
-  }
-}
+//   }
+//   span.site-brand {
+//     a {
+//       @apply p-2 flex h-full;
+//       img {
+//         @apply h-12 my-auto;
+//       }
+//     }
+//   }
+// }

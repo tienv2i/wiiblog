@@ -3,6 +3,8 @@ const path = require('path')
 const BundleTracker = require('webpack-bundle-tracker')
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 
 module.exports = {
     entry: {
@@ -22,7 +24,8 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.(|m)js$/,
+                test: /\.(|m)js(|x)0$/,
+                exclude: /node_modules/,
                 loader: "babel-loader",
             },
             {
@@ -57,6 +60,9 @@ module.exports = {
             filename: 'css/[name].[chunkhash:8].css'
         }),
         new BundleTracker({filename: './webpack-stats.json'}),
-
     ],
+    resolve: {
+        fallback: {
+        }
+    }
 }

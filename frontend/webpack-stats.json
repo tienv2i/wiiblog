@@ -1,120 +1,211 @@
 {
   "status": "done",
   "assets": {
-    "css/main.720b68d5.css": {
-      "name": "css/main.720b68d5.css",
-      "path": "/home/huynhat/wiiblog/frontend/static/css/main.720b68d5.css",
-      "publicPath": "/static/css/main.720b68d5.css"
+    "css/main.79e6824a.css": {
+      "name": "css/main.79e6824a.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.79e6824a.css",
+      "publicPath": "/static/css/main.79e6824a.css"
     },
-    "js/main.1c5617bd.js": {
-      "name": "js/main.1c5617bd.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/main.1c5617bd.js",
-      "publicPath": "/static/js/main.1c5617bd.js"
+    "js/main.b4b3c168.js": {
+      "name": "js/main.b4b3c168.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.b4b3c168.js",
+      "publicPath": "/static/js/main.b4b3c168.js"
     },
-    "js/runtime.1c5617bd.js": {
-      "name": "js/runtime.1c5617bd.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.1c5617bd.js",
-      "publicPath": "/static/js/runtime.1c5617bd.js"
+    "js/runtime.b4b3c168.js": {
+      "name": "js/runtime.b4b3c168.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.b4b3c168.js",
+      "publicPath": "/static/js/runtime.b4b3c168.js"
     },
-    "css/main.d7b5a463.css": {
-      "name": "css/main.d7b5a463.css",
-      "path": "/home/huynhat/wiiblog/frontend/static/css/main.d7b5a463.css",
-      "publicPath": "/static/css/main.d7b5a463.css"
+    "css/main.4a4370e1.css": {
+      "name": "css/main.4a4370e1.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.4a4370e1.css",
+      "publicPath": "/static/css/main.4a4370e1.css"
     },
-    "js/main.5c9a3040.js": {
-      "name": "js/main.5c9a3040.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/main.5c9a3040.js",
-      "publicPath": "/static/js/main.5c9a3040.js"
+    "js/main.5c4899bb.js": {
+      "name": "js/main.5c4899bb.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.5c4899bb.js",
+      "publicPath": "/static/js/main.5c4899bb.js"
     },
-    "js/runtime.5c9a3040.js": {
-      "name": "js/runtime.5c9a3040.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.5c9a3040.js",
-      "publicPath": "/static/js/runtime.5c9a3040.js"
+    "js/runtime.5c4899bb.js": {
+      "name": "js/runtime.5c4899bb.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.5c4899bb.js",
+      "publicPath": "/static/js/runtime.5c4899bb.js"
     },
-    "css/main.1db60496.css": {
-      "name": "css/main.1db60496.css",
-      "path": "/home/huynhat/wiiblog/frontend/static/css/main.1db60496.css",
-      "publicPath": "/static/css/main.1db60496.css"
+    "js/vendors-node_modules_alpinejs_dist_module_esm_js.5c4899bb.js": {
+      "name": "js/vendors-node_modules_alpinejs_dist_module_esm_js.5c4899bb.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/vendors-node_modules_alpinejs_dist_module_esm_js.5c4899bb.js",
+      "publicPath": "/static/js/vendors-node_modules_alpinejs_dist_module_esm_js.5c4899bb.js"
     },
-    "js/main.de618524.js": {
-      "name": "js/main.de618524.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/main.de618524.js",
-      "publicPath": "/static/js/main.de618524.js"
+    "css/main.145ec84c.css": {
+      "name": "css/main.145ec84c.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.145ec84c.css",
+      "publicPath": "/static/css/main.145ec84c.css"
     },
-    "js/runtime.de618524.js": {
-      "name": "js/runtime.de618524.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.de618524.js",
-      "publicPath": "/static/js/runtime.de618524.js"
+    "js/main.9880e480.js": {
+      "name": "js/main.9880e480.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.9880e480.js",
+      "publicPath": "/static/js/main.9880e480.js"
     },
-    "css/main.4710efc8.css": {
-      "name": "css/main.4710efc8.css",
-      "path": "/home/huynhat/wiiblog/frontend/static/css/main.4710efc8.css",
-      "publicPath": "/static/css/main.4710efc8.css"
+    "js/runtime.9880e480.js": {
+      "name": "js/runtime.9880e480.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.9880e480.js",
+      "publicPath": "/static/js/runtime.9880e480.js"
     },
-    "js/main.0c914531.js": {
-      "name": "js/main.0c914531.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/main.0c914531.js",
-      "publicPath": "/static/js/main.0c914531.js"
+    "js/vendors-node_modules_alpinejs_dist_module_esm_js.9880e480.js": {
+      "name": "js/vendors-node_modules_alpinejs_dist_module_esm_js.9880e480.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/vendors-node_modules_alpinejs_dist_module_esm_js.9880e480.js",
+      "publicPath": "/static/js/vendors-node_modules_alpinejs_dist_module_esm_js.9880e480.js"
     },
-    "js/runtime.0c914531.js": {
-      "name": "js/runtime.0c914531.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.0c914531.js",
-      "publicPath": "/static/js/runtime.0c914531.js"
+    "css/main.07de81aa.css": {
+      "name": "css/main.07de81aa.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.07de81aa.css",
+      "publicPath": "/static/css/main.07de81aa.css"
     },
-    "css/main.8cab0197.css": {
-      "name": "css/main.8cab0197.css",
-      "path": "/home/huynhat/wiiblog/frontend/static/css/main.8cab0197.css",
-      "publicPath": "/static/css/main.8cab0197.css"
+    "js/main.150159c1.js": {
+      "name": "js/main.150159c1.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.150159c1.js",
+      "publicPath": "/static/js/main.150159c1.js"
     },
-    "js/main.da4f3257.js": {
-      "name": "js/main.da4f3257.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/main.da4f3257.js",
-      "publicPath": "/static/js/main.da4f3257.js"
+    "js/runtime.150159c1.js": {
+      "name": "js/runtime.150159c1.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.150159c1.js",
+      "publicPath": "/static/js/runtime.150159c1.js"
     },
-    "js/runtime.da4f3257.js": {
-      "name": "js/runtime.da4f3257.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.da4f3257.js",
-      "publicPath": "/static/js/runtime.da4f3257.js"
+    "js/vendors-node_modules_alpinejs_dist_module_esm_js.150159c1.js": {
+      "name": "js/vendors-node_modules_alpinejs_dist_module_esm_js.150159c1.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/vendors-node_modules_alpinejs_dist_module_esm_js.150159c1.js",
+      "publicPath": "/static/js/vendors-node_modules_alpinejs_dist_module_esm_js.150159c1.js"
     },
-    "css/main.a9109376.css": {
-      "name": "css/main.a9109376.css",
-      "path": "/home/huynhat/wiiblog/frontend/static/css/main.a9109376.css",
-      "publicPath": "/static/css/main.a9109376.css"
+    "css/main.68949b86.css": {
+      "name": "css/main.68949b86.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.68949b86.css",
+      "publicPath": "/static/css/main.68949b86.css"
     },
-    "js/main.e670aeec.js": {
-      "name": "js/main.e670aeec.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/main.e670aeec.js",
-      "publicPath": "/static/js/main.e670aeec.js"
+    "js/main.61601b5f.js": {
+      "name": "js/main.61601b5f.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.61601b5f.js",
+      "publicPath": "/static/js/main.61601b5f.js"
     },
-    "js/runtime.e670aeec.js": {
-      "name": "js/runtime.e670aeec.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.e670aeec.js",
-      "publicPath": "/static/js/runtime.e670aeec.js"
+    "js/runtime.61601b5f.js": {
+      "name": "js/runtime.61601b5f.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.61601b5f.js",
+      "publicPath": "/static/js/runtime.61601b5f.js"
     },
-    "css/main.514f42f9.css": {
-      "name": "css/main.514f42f9.css",
-      "path": "/home/huynhat/wiiblog/frontend/static/css/main.514f42f9.css",
-      "publicPath": "/static/css/main.514f42f9.css"
+    "js/vendors-node_modules_alpinejs_dist_module_esm_js.61601b5f.js": {
+      "name": "js/vendors-node_modules_alpinejs_dist_module_esm_js.61601b5f.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/vendors-node_modules_alpinejs_dist_module_esm_js.61601b5f.js",
+      "publicPath": "/static/js/vendors-node_modules_alpinejs_dist_module_esm_js.61601b5f.js"
     },
-    "js/main.30731111.js": {
-      "name": "js/main.30731111.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/main.30731111.js",
-      "publicPath": "/static/js/main.30731111.js"
+    "css/main.e4985079.css": {
+      "name": "css/main.e4985079.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.e4985079.css",
+      "publicPath": "/static/css/main.e4985079.css"
     },
-    "js/runtime.30731111.js": {
-      "name": "js/runtime.30731111.js",
-      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.30731111.js",
-      "publicPath": "/static/js/runtime.30731111.js"
+    "js/main.0e777881.js": {
+      "name": "js/main.0e777881.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.0e777881.js",
+      "publicPath": "/static/js/main.0e777881.js"
+    },
+    "js/runtime.0e777881.js": {
+      "name": "js/runtime.0e777881.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.0e777881.js",
+      "publicPath": "/static/js/runtime.0e777881.js"
+    },
+    "js/vendors-node_modules_alpinejs_dist_module_esm_js.0e777881.js": {
+      "name": "js/vendors-node_modules_alpinejs_dist_module_esm_js.0e777881.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/vendors-node_modules_alpinejs_dist_module_esm_js.0e777881.js",
+      "publicPath": "/static/js/vendors-node_modules_alpinejs_dist_module_esm_js.0e777881.js"
+    },
+    "css/main.78c2b254.css": {
+      "name": "css/main.78c2b254.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.78c2b254.css",
+      "publicPath": "/static/css/main.78c2b254.css"
+    },
+    "js/main.29a3e671.js": {
+      "name": "js/main.29a3e671.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.29a3e671.js",
+      "publicPath": "/static/js/main.29a3e671.js"
+    },
+    "js/runtime.29a3e671.js": {
+      "name": "js/runtime.29a3e671.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.29a3e671.js",
+      "publicPath": "/static/js/runtime.29a3e671.js"
+    },
+    "js/vendors-node_modules_alpinejs_dist_module_esm_js.29a3e671.js": {
+      "name": "js/vendors-node_modules_alpinejs_dist_module_esm_js.29a3e671.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/vendors-node_modules_alpinejs_dist_module_esm_js.29a3e671.js",
+      "publicPath": "/static/js/vendors-node_modules_alpinejs_dist_module_esm_js.29a3e671.js"
+    },
+    "css/main.d05a0a04.css": {
+      "name": "css/main.d05a0a04.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.d05a0a04.css",
+      "publicPath": "/static/css/main.d05a0a04.css"
+    },
+    "js/main.76d9bf37.js": {
+      "name": "js/main.76d9bf37.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.76d9bf37.js",
+      "publicPath": "/static/js/main.76d9bf37.js"
+    },
+    "js/runtime.76d9bf37.js": {
+      "name": "js/runtime.76d9bf37.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.76d9bf37.js",
+      "publicPath": "/static/js/runtime.76d9bf37.js"
+    },
+    "js/vendors-node_modules_alpinejs_dist_module_esm_js.76d9bf37.js": {
+      "name": "js/vendors-node_modules_alpinejs_dist_module_esm_js.76d9bf37.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/vendors-node_modules_alpinejs_dist_module_esm_js.76d9bf37.js",
+      "publicPath": "/static/js/vendors-node_modules_alpinejs_dist_module_esm_js.76d9bf37.js"
+    },
+    "css/main.e74cfe92.css": {
+      "name": "css/main.e74cfe92.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.e74cfe92.css",
+      "publicPath": "/static/css/main.e74cfe92.css"
+    },
+    "js/main.1742a600.js": {
+      "name": "js/main.1742a600.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.1742a600.js",
+      "publicPath": "/static/js/main.1742a600.js"
+    },
+    "js/runtime.1742a600.js": {
+      "name": "js/runtime.1742a600.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.1742a600.js",
+      "publicPath": "/static/js/runtime.1742a600.js"
+    },
+    "js/vendors-node_modules_alpinejs_dist_module_esm_js.1742a600.js": {
+      "name": "js/vendors-node_modules_alpinejs_dist_module_esm_js.1742a600.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/vendors-node_modules_alpinejs_dist_module_esm_js.1742a600.js",
+      "publicPath": "/static/js/vendors-node_modules_alpinejs_dist_module_esm_js.1742a600.js"
+    },
+    "css/main.b55df205.css": {
+      "name": "css/main.b55df205.css",
+      "path": "/home/huynhat/wiiblog/frontend/static/css/main.b55df205.css",
+      "publicPath": "/static/css/main.b55df205.css"
+    },
+    "js/main.3c42057f.js": {
+      "name": "js/main.3c42057f.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/main.3c42057f.js",
+      "publicPath": "/static/js/main.3c42057f.js"
+    },
+    "js/runtime.3c42057f.js": {
+      "name": "js/runtime.3c42057f.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/runtime.3c42057f.js",
+      "publicPath": "/static/js/runtime.3c42057f.js"
+    },
+    "js/vendors-node_modules_alpinejs_dist_module_esm_js.3c42057f.js": {
+      "name": "js/vendors-node_modules_alpinejs_dist_module_esm_js.3c42057f.js",
+      "path": "/home/huynhat/wiiblog/frontend/static/js/vendors-node_modules_alpinejs_dist_module_esm_js.3c42057f.js",
+      "publicPath": "/static/js/vendors-node_modules_alpinejs_dist_module_esm_js.3c42057f.js"
     }
   },
   "chunks": {
     "main": [
-      "js/runtime.30731111.js",
-      "css/main.514f42f9.css",
-      "js/main.30731111.js"
+      "js/runtime.3c42057f.js",
+      "js/vendors-node_modules_alpinejs_dist_module_esm_js.3c42057f.js",
+      "css/main.b55df205.css",
+      "js/main.3c42057f.js"
     ]
   },
   "publicPath": "/static/",
-  "error": "ModuleBuildError",
-  "message": "Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):\nSyntaxError\n\n(49:24) /home/huynhat/wiiblog/frontend/src/style.scss The `px-` class does not exist, but `px-0` does. If you're sure that `px-` exists, make sure that any `@import` statements are being properly processed before Tailwind CSS sees your CSS, as `@apply` can only be used for classes in the same CSS tree.\n\n  47 | }\n  48 | nav.navbar ul li a {\n> 49 |   @apply text-gray-100 px- my-auto;\n     |                        ^\n  50 | }\n  51 | nav.navbar span.site-brand a {\n"
+  "error": "ModuleParseError",
+  "message": "Module parse failed: Unexpected token (3:19)\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\n| // import 'tailwindcss';\n| import './style.scss';\n> import Alpine from Al\n| function toggle (selector) {\n|     let els = document.querySelectorAll(selector);"
 }

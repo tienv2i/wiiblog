@@ -1,30 +1,59 @@
 {% load wagtailcore_tags static %}
 {% load render_bundle from webpack_loader %}
 
-<nav class="navbar bg-white border-b bg-gray-800 text-gray-100">
-    <div class="flex max-w-6xl mx-auto">
-        <span class="site-brand" >
+<nav class="navbar bg-gray-700 text-gray-100">
+    <div class="navbar-lg flex flex-wrap max-w-6xl mx-auto">
+        <span class="flex py-2 px-2 md:px-0">
             <a href="/">
-                <img src="/static/img/logo.png" alt="Logo" />
+                <img src="/static/img/logo.png" alt="Logo" class="h-12"/>
             </a>
         </span>
-        <ul class="flex flex-row">
-            <li>
-                <a href="/blog" class="text-black font-semibold">Blog</a>
+        <ul class="hidden md:flex items-center font-semibold ml-auto">
+            <li class="h-full">
+                <a href="/blog" class="flex h-full items-center px-4 hover:bg-gray-800">Blog</a>
             </li>
-            <li>
-                <a href="/about" class="text-black font-semibold">About</a>
+            <li class="h-full">
+                <a href="/about" class="flex h-full items-center px-4 hover:bg-gray-800">About</a>
             </li>
             {% if request.user.is_authenticated %}
-            <li>
-                <a href="/admin" class="text-black font-semibold">Admin</a>
+            <li class="h-full">
+                <a href="/admin" class="flex h-full items-center px-4 hover:bg-gray-800">Admin</a>
             </li>
-            <li>
-                <a href="/admin/logout?next={{ request.get_full_path }}" class="text-black font-semibold">Logout</a>
+            <li class="h-full">
+                <a href="/admin/logout?next={{ request.get_full_path }}" class="flex h-full items-center px-4 hover:bg-gray-800">Logout</a>
             </li>
             {% else %}
-            <li>
-                <a href="/admin/login?next={{ request.get_full_path }}" class="text-black font-semibold">Login</a>
+            <li class="h-full">
+                <a href="/admin/login?next={{ request.get_full_path }}" class="flex h-full items-center px-4 hover:bg-gray-800">Login</a>
+            </li>
+            {% endif %}
+        </ul>
+        <div class="flex md:hidden px-4 flex-shrink my-auto ml-auto h-full">
+            <a href="#" onclick="toggle('#responsive-navbar')">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div id="responsive-navbar" class="overflow-hidden px-2 hidden md:hidden">
+        <ul class="flex flex-col">
+            <li class="h-full">
+                <a href="/blog" class="flex h-full items-center p-4 hover:bg-gray-800">Blog</a>
+            </li>
+            <li class="h-full">
+                <a href="/about" class="flex h-full items-center p-4 hover:bg-gray-800">About</a>
+            </li>
+            {% if request.user.is_authenticated %}
+            <li class="h-full">
+                <a href="/admin" class="flex h-full items-center p-4 hover:bg-gray-800">Admin</a>
+            </li>
+            <li class="h-full">
+                <a href="/admin/logout?next={{ request.get_full_path }}" class="flex h-full items-center p-4 hover:bg-gray-800">Logout</a>
+            </li>
+            {% else %}
+            <li class="h-full">
+                <a href="/admin/login?next={{ request.get_full_path }}" class="flex h-full items-center p-4 hover:bg-gray-800">Login</a>
             </li>
             {% endif %}
         </ul>

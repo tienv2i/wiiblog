@@ -596,11 +596,6 @@ h3 {
   font-weight: 600;
 }
 
-a {
-  --tw-text-opacity: 1;
-  color: rgba(37, 99, 235, var(--tw-text-opacity));
-}
-
 .container {
   width: 100%;
 }
@@ -32026,6 +32021,12 @@ a {
   transition-duration: 150ms;
 }
 
+.transition-height {
+  transition-property: max-height;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .delay-75 {
   transition-delay: 75ms;
 }
@@ -32128,69 +32129,6 @@ a {
 .btn-green {
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
-}
-
-aside section.widget header {
-  border-bottom-width: 1px;
-  --tw-bg-opacity: 1;
-  background-color: rgba(55, 65, 81, var(--tw-bg-opacity));
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  font-weight: 600;
-  --tw-text-opacity: 1;
-  color: rgba(243, 244, 246, var(--tw-text-opacity));
-}
-
-aside ul li {
-  border-bottom-width: 1px;
-}
-
-aside ul li:last-child {
-  border-bottom-width: 0px;
-}
-
-nav.navbar ul li {
-  margin-top: auto;
-  margin-bottom: auto;
-  display: flex;
-  height: 100%;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  font-weight: 600;
-}
-
-nav.navbar ul li:first-child {
-  margin-left: 1rem;
-}
-
-nav.navbar ul li:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
-}
-
-nav.navbar ul li a {
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  --tw-text-opacity: 1;
-  color: rgba(243, 244, 246, var(--tw-text-opacity));
-}
-
-nav.navbar span.site-brand a {
-  display: flex;
-  height: 100%;
-  padding: 0.5rem;
-}
-
-nav.navbar span.site-brand a img {
-  margin-top: auto;
-  margin-bottom: auto;
-  height: 3rem;
 }
 
 @media (min-width: 640px) {
@@ -63536,6 +63474,12 @@ nav.navbar span.site-brand a img {
 
   .sm\:transition-transform {
     transition-property: transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .sm\:transition-height {
+    transition-property: max-height;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
   }
@@ -94968,6 +94912,12 @@ nav.navbar span.site-brand a img {
     transition-duration: 150ms;
   }
 
+  .md\:transition-height {
+    transition-property: max-height;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
   .md\:delay-75 {
     transition-delay: 75ms;
   }
@@ -126392,6 +126342,12 @@ nav.navbar span.site-brand a img {
 
   .lg\:transition-transform {
     transition-property: transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .lg\:transition-height {
+    transition-property: max-height;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
   }
@@ -157824,6 +157780,12 @@ nav.navbar span.site-brand a img {
     transition-duration: 150ms;
   }
 
+  .xl\:transition-height {
+    transition-property: max-height;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
   .xl\:delay-75 {
     transition-delay: 75ms;
   }
@@ -189248,6 +189210,12 @@ nav.navbar span.site-brand a img {
 
   .\32xl\:transition-transform {
     transition-property: transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .\32xl\:transition-height {
+    transition-property: max-height;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
   }
