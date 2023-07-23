@@ -1,0 +1,7 @@
+{% load wagtailcore_tags wagtailimages_tags %}
+
+{% for block in post.body %}
+    {% if block.type == "h1" %}
+        <h1>{{ block }}</h1>
+    {% endif %}
+{% endfor %}

@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load  static wagtailcore_tags wagtailimages_tags %}
+
+{% block content %}
+    <div class="container">
+        <div class="row py-4">
+            <div class="col-lg-8">
+                {% for post in posts %}
+                    <div class="card my-4">
+                        {% if post.header_image %}
+                            {% image post.header_image scale-100 class="card-img-top" %}
+                        {% endif %}
+                        <div class="card-body">
+                            <h3 class="card-title">
+                                {{ post.title }}
+                            </h3>
+                            <div class="card-text">
+                                {% if post.intro %}
+                                    {{ post.intro | richtext }}
+                                {% else %}
+                                    {% include_block post.body %}
+                                {% endif %}
+                                <a href="{{ post.url }}" class="btn btn-primary">Readmore...</a>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            {{ post.post_date }}
+                          </div>
+                      </div>
+                {% endfor %}
+            </div>
+            <div class="col-lg-4">
+                    {% include "widgets/sidebar.html" %}
+            </div>
+        </div>
+    </div>
+{% endblock content %}

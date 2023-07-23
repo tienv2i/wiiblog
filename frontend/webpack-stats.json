@@ -1,0 +1,132 @@
+{
+  "status": "done",
+  "assets": {
+    "css/main-4ba7df3d00042966f107.css": {
+      "name": "css/main-4ba7df3d00042966f107.css",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\css\\main-4ba7df3d00042966f107.css",
+      "publicPath": "/static/css/main-4ba7df3d00042966f107.css"
+    },
+    "fonts/150de8eaa454d669c405.ttf": {
+      "name": "fonts/150de8eaa454d669c405.ttf",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\fonts\\150de8eaa454d669c405.ttf",
+      "publicPath": "/static/fonts/150de8eaa454d669c405.ttf"
+    },
+    "fonts/3223dc79c1adee56370b.woff2": {
+      "name": "fonts/3223dc79c1adee56370b.woff2",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\fonts\\3223dc79c1adee56370b.woff2",
+      "publicPath": "/static/fonts/3223dc79c1adee56370b.woff2"
+    },
+    "fonts/4a2cd718d7031b732e76.ttf": {
+      "name": "fonts/4a2cd718d7031b732e76.ttf",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\fonts\\4a2cd718d7031b732e76.ttf",
+      "publicPath": "/static/fonts/4a2cd718d7031b732e76.ttf"
+    },
+    "fonts/bb975c966c37455a1bc3.woff2": {
+      "name": "fonts/bb975c966c37455a1bc3.woff2",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\fonts\\bb975c966c37455a1bc3.woff2",
+      "publicPath": "/static/fonts/bb975c966c37455a1bc3.woff2"
+    },
+    "fonts/d87474231f4192884802.ttf": {
+      "name": "fonts/d87474231f4192884802.ttf",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\fonts\\d87474231f4192884802.ttf",
+      "publicPath": "/static/fonts/d87474231f4192884802.ttf"
+    },
+    "fonts/e033a13ee751afc1860c.woff2": {
+      "name": "fonts/e033a13ee751afc1860c.woff2",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\fonts\\e033a13ee751afc1860c.woff2",
+      "publicPath": "/static/fonts/e033a13ee751afc1860c.woff2"
+    },
+    "icons/215f8ced19c13e0059ee.svg": {
+      "name": "icons/215f8ced19c13e0059ee.svg",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\icons\\215f8ced19c13e0059ee.svg",
+      "publicPath": "/static/icons/215f8ced19c13e0059ee.svg"
+    },
+    "icons/2c1af1537eb27de865c3.svg": {
+      "name": "icons/2c1af1537eb27de865c3.svg",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\icons\\2c1af1537eb27de865c3.svg",
+      "publicPath": "/static/icons/2c1af1537eb27de865c3.svg"
+    },
+    "icons/3a46a0bc7c962c7cf40c.svg": {
+      "name": "icons/3a46a0bc7c962c7cf40c.svg",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\icons\\3a46a0bc7c962c7cf40c.svg",
+      "publicPath": "/static/icons/3a46a0bc7c962c7cf40c.svg"
+    },
+    "icons/53b777c5e4b5c9d35af3.svg": {
+      "name": "icons/53b777c5e4b5c9d35af3.svg",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\icons\\53b777c5e4b5c9d35af3.svg",
+      "publicPath": "/static/icons/53b777c5e4b5c9d35af3.svg"
+    },
+    "icons/60bd541e1c636344a7d3.svg": {
+      "name": "icons/60bd541e1c636344a7d3.svg",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\icons\\60bd541e1c636344a7d3.svg",
+      "publicPath": "/static/icons/60bd541e1c636344a7d3.svg"
+    },
+    "icons/61b275f36d220de63bf0.svg": {
+      "name": "icons/61b275f36d220de63bf0.svg",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\icons\\61b275f36d220de63bf0.svg",
+      "publicPath": "/static/icons/61b275f36d220de63bf0.svg"
+    },
+    "icons/6376436babdee8fe41f6.svg": {
+      "name": "icons/6376436babdee8fe41f6.svg",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\icons\\6376436babdee8fe41f6.svg",
+      "publicPath": "/static/icons/6376436babdee8fe41f6.svg"
+    },
+    "icons/69aa1495d8439f869898.svg": {
+      "name": "icons/69aa1495d8439f869898.svg",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\icons\\69aa1495d8439f869898.svg",
+      "publicPath": "/static/icons/69aa1495d8439f869898.svg"
+    },
+    "icons/7aa98f96484af284afc1.svg": {
+      "name": "icons/7aa98f96484af284afc1.svg",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\icons\\7aa98f96484af284afc1.svg",
+      "publicPath": "/static/icons/7aa98f96484af284afc1.svg"
+    },
+    "icons/8fa3e5582e1c445ef50d.svg": {
+      "name": "icons/8fa3e5582e1c445ef50d.svg",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\icons\\8fa3e5582e1c445ef50d.svg",
+      "publicPath": "/static/icons/8fa3e5582e1c445ef50d.svg"
+    },
+    "icons/9204c1c7771de8c914ab.svg": {
+      "name": "icons/9204c1c7771de8c914ab.svg",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\icons\\9204c1c7771de8c914ab.svg",
+      "publicPath": "/static/icons/9204c1c7771de8c914ab.svg"
+    },
+    "icons/92ecaf71710582a68b56.svg": {
+      "name": "icons/92ecaf71710582a68b56.svg",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\icons\\92ecaf71710582a68b56.svg",
+      "publicPath": "/static/icons/92ecaf71710582a68b56.svg"
+    },
+    "icons/aae2a8f793b1ab268f3f.svg": {
+      "name": "icons/aae2a8f793b1ab268f3f.svg",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\icons\\aae2a8f793b1ab268f3f.svg",
+      "publicPath": "/static/icons/aae2a8f793b1ab268f3f.svg"
+    },
+    "icons/ac62869b3064c3b85221.svg": {
+      "name": "icons/ac62869b3064c3b85221.svg",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\icons\\ac62869b3064c3b85221.svg",
+      "publicPath": "/static/icons/ac62869b3064c3b85221.svg"
+    },
+    "icons/e55a606ec01f3327b97d.svg": {
+      "name": "icons/e55a606ec01f3327b97d.svg",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\icons\\e55a606ec01f3327b97d.svg",
+      "publicPath": "/static/icons/e55a606ec01f3327b97d.svg"
+    },
+    "icons/ee7809ddc05f576a72aa.svg": {
+      "name": "icons/ee7809ddc05f576a72aa.svg",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\icons\\ee7809ddc05f576a72aa.svg",
+      "publicPath": "/static/icons/ee7809ddc05f576a72aa.svg"
+    },
+    "js/main-4ba7df3d00042966f107.js": {
+      "name": "js/main-4ba7df3d00042966f107.js",
+      "path": "D:\\Projects\\miiblog\\frontend\\dist\\js\\main-4ba7df3d00042966f107.js",
+      "publicPath": "/static/js/main-4ba7df3d00042966f107.js"
+    }
+  },
+  "chunks": {
+    "main": [
+      "css/main-4ba7df3d00042966f107.css",
+      "js/main-4ba7df3d00042966f107.js"
+    ]
+  },
+  "publicPath": "/static/"
+}
