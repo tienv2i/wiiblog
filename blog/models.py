@@ -1,6 +1,6 @@
 from datetime import datetime
 from django.db import models
-from django.core.paginator import Paginator
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from wagtail.models import Page
 from wagtailmetadata.models import MetadataPageMixin
 from wagtail.admin.panels import FieldPanel, InlinePanel
@@ -26,12 +26,21 @@ class BlogIndexPage(RoutablePageMixin, Page):
 
     def get_context(self, request, *args, **kwargs):
         context = super(BlogIndexPage, self).get_context(request, *args, **kwargs)
+        all_posts = self.get_posts()
+        paginator = Paginator(all_posts, 10)  # Hiển thị 2 bài viết mỗi trang
+        page = request.GET.get('page')
+        try:
+            posts = paginator.get_page(page)
+        except PageNotAnInteger:
+            posts = paginator.get_page(1)
+        except EmptyPage:
+            posts = paginator.get_page(paginator.num_pages)
         context['blog_page'] = self
-        context['posts'] = self.posts
+        context['posts'] = posts
         return context
     
     def get_posts(self):
-        return BlogPostPage.objects.descendant_of(self).live()
+        return BlogPostPage.objects.descendant_of(self).live().order_by('-post_date')
     
     @route(r'^tag/(?P<tag>[-\w]+)$')
     def post_by_tag(self, request, tag, *arg, **kwargs):
