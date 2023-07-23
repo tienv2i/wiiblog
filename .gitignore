@@ -1,7 +1,8 @@
 .env
-.venv
-node_modules
+.venv/
+node_modules/
 *.lock
-dist
-media
-__pycache__
+dist/
+
+media.bak/
+__pycache__/
