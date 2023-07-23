@@ -1,15 +1,9 @@
-<nav>
-    <div class="card">
-        <form action="">
-            <div class="form-row align-items-center">
-                <div class="col-sm-9">
-                   <input type="text" class="form-control" id="inlineFormInputName" placeholder="Jane Doe"> 
-                </div>
-                <div class="col-auto">
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
-            </div>
-            <label for=""></label>
-        </form>
-    </div>
-</nav>
+<div class="container">
+    <form class="d-flex align-items-center" action="/search" method="POST">
+        <div class="flex-grow-1 px-2 my-4" style="width: 100%">
+            <input type="search" class="form-control" placeholder="Input search">
+        </div>
+        {% csrf_token %}
+        <button type="submit" class="btn btn-primary" style="width: 100px">Search</button>
+    </form>
+</div>

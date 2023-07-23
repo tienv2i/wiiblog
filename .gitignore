@@ -1,5 +1,6 @@
 .env
 .venv
 node_modules
+*.lock
 dist
 __pycache__

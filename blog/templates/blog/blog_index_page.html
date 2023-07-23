@@ -7,13 +7,18 @@
             <div class="col-lg-8">
                 {% for post in posts %}
                     <div class="card my-4">
-                        {% if post.header_image %}
-                            {% image post.header_image scale-100 class="card-img-top" %}
-                        {% endif %}
+                        <div class="card-header">
+                            {{ post.post_date }}
+                        </div>
                         <div class="card-body">
                             <h3 class="card-title">
                                 {{ post.title }}
                             </h3>
+                            {% if post.header_image %}
+                                <div class="d-flex justify-content-center">
+                                    {% image post.header_image scale-100 class="card-img-top" %}
+                                </div>
+                            {% endif %}
                             <div class="card-text">
                                 {% if post.intro %}
                                     {{ post.intro | richtext }}
@@ -23,10 +28,7 @@
                                 <a href="{{ post.url }}" class="btn btn-primary">Readmore...</a>
                             </div>
                         </div>
-                        <div class="card-footer">
-                            {{ post.post_date }}
-                          </div>
-                      </div>
+                    </div>
                 {% endfor %}
             </div>
             <div class="col-lg-4">

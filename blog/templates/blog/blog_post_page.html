@@ -6,15 +6,17 @@
         <div class="row py-4">
             <div class="col-lg-8">
                 <div class="card my-4">
+                    <div class="card-header">
+                        {{ page.specific.post_date }}
+                    </div>
                     <div class="card-body">
                         <h3 class="card-title">
                             <a href="{{ page.specific.url }}" style="text-decoration: none">{{ page.specific.title }}</a>
                         </h3>
-                        <div class="text-muted border-top border-bottom py-2">
-                            {{ page.specific.post_date }}
-                        </div>
                         {% if page.specific.header_image %}
-                            {% image page.specific.header_image scale-100 %}
+                            <div class="d-flex justify-content-center">
+                                {% image page.specific.header_image scale-100  %}
+                            </div>
                         {% endif %}
                         <div class="card-text">
                             {% if page.specific.intro %}

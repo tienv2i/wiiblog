@@ -1,2 +1,3 @@
-* WIIBLOG PROJECT BY HUYNHAT
-** Based on Wagtail
+# WIIBLOG PROJECT BY HUYNHAT
+## Wiiblog project by huynhat Based on Wagtail
+
