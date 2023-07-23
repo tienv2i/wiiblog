@@ -3,6 +3,5 @@
 node_modules/
 *.lock
 dist/
-
-media.bak/
+media/
 __pycache__/
