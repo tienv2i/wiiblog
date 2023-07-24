@@ -1,5 +1,8 @@
 from datetime import datetime
 from django.db import models
+from django.utils.dateformat import DateFormat
+from django.utils.formats import date_format
+from django.http import Http404
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from wagtail.models import Page
 from wagtailmetadata.models import MetadataPageMixin
@@ -7,7 +10,7 @@ from wagtail.admin.panels import FieldPanel, InlinePanel
 from wagtail.fields import StreamField, RichTextField
 from wagtail.images.blocks import ImageChooserBlock
 from wagtail import blocks
-from wagtail.contrib.routable_page.models import RoutablePageMixin, route
+from wagtail.contrib.routable_page.models import RoutablePageMixin, route, re_path, path
 from modelcluster.tags import ClusterTaggableManager
 from modelcluster.fields import ParentalKey
 from taggit.models import Tag as TaggitTag, TaggedItemBase
@@ -26,7 +29,7 @@ class BlogIndexPage(RoutablePageMixin, Page):
 
     def get_context(self, request, *args, **kwargs):
         context = super(BlogIndexPage, self).get_context(request, *args, **kwargs)
-        all_posts = self.get_posts()
+        all_posts = self.posts
         paginator = Paginator(all_posts, 10)  # Hiển thị 2 bài viết mỗi trang
         page = request.GET.get('page')
         try:
@@ -42,17 +45,82 @@ class BlogIndexPage(RoutablePageMixin, Page):
     def get_posts(self):
         return BlogPostPage.objects.descendant_of(self).live().order_by('-post_date')
     
-    @route(r'^tag/(?P<tag>[-\w]+)$')
-    def post_by_tag(self, request, tag, *arg, **kwargs):
-        self.page_type = "tag"
-        self.posts = self.get_posts().filter(tag__slug = tag)
-        return self.render(request)
-
+    
     @route(r'^$')
     def post_list(self, request, *args, **kwargs):
         self.posts = self.get_posts()
         return self.render(request)
     
+    @route(r"^(\d{4})/(\d{2})/(\d{2})/(.+)/$")
+    def post_by_date_slug(self, request, year, month, day, slug, *args, **kwargs):
+        post_page = self.get_posts().filter(slug=slug).first()
+        if not post_page:
+            raise Http404
+        # here we render another page, so we call the serve method of the page instance
+        return post_page.serve(request)
+    
+    @route(r'^category/(?P<category>[-\w]+)/$')
+    def post_by_category(self, request, category, *args, **kwargs):
+        self.filter_type = 'category'
+        self.filter_term = category
+        self.posts = self.get_posts().filter(categories__blog_category__slug=category)
+        return self.render(request)
+    
+    @route(r"^(\d{4})/$")
+    @route(r"^(\d{4})/(\d{2})/$")
+    @route(r"^(\d{4})/(\d{2})/(\d{2})/$")
+    def post_by_date(self, request, year, month=None, day=None, *args, **kwargs):
+        self.filter_type = 'date'
+        self.filter_term = year
+        self.posts = self.get_posts().filter(post_date__year=year)
+        if month:
+            df = DateFormat(datetime.date(int(year), int(month), 1))
+            self.filter_term = df.format('F Y')
+            self.posts = self.posts.filter(post_date__month=month)
+        if day:
+            self.filter_term = date_format(datetime.date(int(year), int(month), int(day)))
+            self.posts = self.posts.filter(post_date__day=day)
+        return self.render(request)
+    
+    @route(r"^search/$")
+    def post_search(self, request, *args, **kwargs):
+        search_query = request.GET.get("q", None)
+        self.posts = self.get_posts()
+        if search_query:
+            self.filter_term = search_query
+            self.filter_type = 'search'
+            self.posts = self.posts.search(search_query)
+        return self.render(request)
+
+    @route(r'^tag/([-\w]+)/$')
+    def post_by_tag(self, request, tag, *arg, **kwargs):
+        self.page_type = "tag"
+        self.posts = self.get_posts().filter(tags__slug = tag)
+        self.filter_term = tag
+        self.filter_type = 'tag'
+        return self.render(request)
+
+    def get_sitemap_urls(self, request=None):
+        output = []
+        posts = self.get_posts()
+        for post in posts:
+            post_date = post.post_date
+            url = self.get_full_url(request) + self.reverse_subpage(
+                'post_by_date_slug',
+                args=(
+                    post_date.year,
+                    '{0:02}'.format(post_date.month),
+                    '{0:02}'.format(post_date.day),
+                    post.slug,
+                )
+            )
+
+            output.append({
+                'location': url,
+                'lastmod': post.last_published_at
+            })
+
+        return output
 
 
 class BlogPostPage(MetadataPageMixin, Page):

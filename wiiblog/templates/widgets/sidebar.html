@@ -1,7 +1,7 @@
 <div class="container">
-    <form class="d-flex align-items-center" action="/search" method="POST">
+    <form class="d-flex align-items-center" action="/search" method="GET">
         <div class="flex-grow-1 px-2 my-4" style="width: 100%">
-            <input type="search" class="form-control" placeholder="Input search">
+            <input type="search" class="form-control" placeholder="Input search" name="q">
         </div>
         {% csrf_token %}
         <button type="submit" class="btn btn-primary" style="width: 100px">Search</button>
