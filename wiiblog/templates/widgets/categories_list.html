@@ -1,0 +1,8 @@
+{% load wagtailcore_tags %}
+{% load wagtailroutablepage_tags %}
+
+<ul>
+    {% for category in blog_categories %}
+        <li><a href="{% routablepageurl blog_page 'post_by_category' category=category.slug %}">{{ category.name }}</a></li>
+    {% endfor %}
+</ul>

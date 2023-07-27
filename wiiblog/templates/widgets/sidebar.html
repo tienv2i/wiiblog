@@ -1,9 +1,30 @@
 <div class="container">
-    <form class="d-flex align-items-center" action="/search" method="GET">
-        <div class="flex-grow-1 px-2 my-4" style="width: 100%">
-            <input type="search" class="form-control" placeholder="Input search" name="q">
+    <div class="card mb-4">
+        <div class="card-header">
+            Search
         </div>
-        {% csrf_token %}
-        <button type="submit" class="btn btn-primary" style="width: 100px">Search</button>
-    </form>
+        <div class="card-body">
+            {% include "widgets/search_form.html" %}
+        </div>
+    </div>
+
+    <div class="card mb-4">
+        <div class="card-header">
+            Categories
+        </div>
+        <div class="card-body">
+            {% include "widgets/categories_list.html" %}
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            Tags
+        </div>
+        <div class="card-body">
+            {% include "widgets/tags_list.html" %}
+        </div>
+    </div>
 </div>
+    
+

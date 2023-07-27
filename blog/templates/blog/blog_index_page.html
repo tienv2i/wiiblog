@@ -6,12 +6,12 @@
         <div class="row py-4">
             <div class="col-lg-8">
                 {% if page.filter_term %}
-                    <div class="bg-primary-subtle text-emphasis-primary border-start border-4 border-primary p-2 fs-6 fw-bold" role="alert">
+                    <div class="bg-primary-subtle text-emphasis-primary border-start border-4 border-primary p-2 fs-6 fw-bold mb-4" role="alert">
                         {{ page.filter_type }}: {{ page.filter_term }}
                     </div>
                 {% endif %}
                 {% for post in posts %}
-                    <div class="card my-4">
+                    <div class="card mb-4">
                         <div class="card-header">
                             {{ post.post_date }}
                         </div>

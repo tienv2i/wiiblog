@@ -31,6 +31,7 @@ class BlogIndexPage(RoutablePageMixin, Page):
         context = super(BlogIndexPage, self).get_context(request, *args, **kwargs)
         all_posts = self.posts
         paginator = Paginator(all_posts, 10)  # Hiển thị 2 bài viết mỗi trang
+        # context['blog_categories'] = BlogCategory.objects.all()
         page = request.GET.get('page')
         try:
             posts = paginator.get_page(page)
@@ -46,7 +47,7 @@ class BlogIndexPage(RoutablePageMixin, Page):
         return BlogPostPage.objects.descendant_of(self).live().order_by('-post_date')
     
     
-    @route(r'^$')
+    @route(r'^$', name='post_list')
     def post_list(self, request, *args, **kwargs):
         self.posts = self.get_posts()
         return self.render(request)
@@ -59,7 +60,7 @@ class BlogIndexPage(RoutablePageMixin, Page):
         # here we render another page, so we call the serve method of the page instance
         return post_page.serve(request)
     
-    @route(r'^category/(?P<category>[-\w]+)/$')
+    @route(r'^category/(?P<category>[-\w]+)/$', name='post_by_category')
     def post_by_category(self, request, category, *args, **kwargs):
         self.filter_type = 'category'
         self.filter_term = category
@@ -92,7 +93,7 @@ class BlogIndexPage(RoutablePageMixin, Page):
             self.posts = self.posts.search(search_query)
         return self.render(request)
 
-    @route(r'^tag/([-\w]+)/$')
+    @route(r'^tag/(?P<tag>[-\w]+)/$', name='post_by_tag')
     def post_by_tag(self, request, tag, *arg, **kwargs):
         self.page_type = "tag"
         self.posts = self.get_posts().filter(tags__slug = tag)

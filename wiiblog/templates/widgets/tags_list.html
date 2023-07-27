@@ -1,0 +1,5 @@
+{% load wagtailcore_tags %}
+{% load wagtailroutablepage_tags %}
+{% for tag in blog_tags %}
+    <span class="badge text-bg-info"><a href="{% routablepageurl blog_page 'post_by_tag' tag=tag.slug %}" class="text-dark" style="text-decoration: none">{{ tag.name }}</a></span>
+{% endfor %}
