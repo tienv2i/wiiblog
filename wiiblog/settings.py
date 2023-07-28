@@ -186,7 +186,7 @@ WEBPACK_LOADER = {
 
 # Base URL to use when referring to full URLs within the Wagtail admin backend -
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
-WAGTAILADMIN_BASE_URL = "http://example.com"
+WAGTAILADMIN_BASE_URL = "https://huynhanhtien.com"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 if DEBUG == True:

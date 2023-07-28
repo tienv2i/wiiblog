@@ -1,3 +1,4 @@
+import django
 from datetime import datetime
 from django.db import models
 from django.utils.dateformat import DateFormat
@@ -131,7 +132,7 @@ class BlogPostPage(MetadataPageMixin, Page):
         on_delete=models.SET_NULL,
         related_name='+'
     )
-    post_date = models.DateTimeField(default = datetime.now())
+    post_date = models.DateTimeField(default = django.utils.timezone.now)
     tags = ClusterTaggableManager(through='blog.BlogPageTag', blank=True)
     intro = RichTextField(blank = True) 
     body = StreamField([
@@ -163,7 +164,7 @@ class BlogSinglePage(Page):
         on_delete=models.SET_NULL,
         related_name='+'
     )
-    post_date = models.DateTimeField(default = datetime.now())
+    post_date = models.DateTimeField(default = django.utils.timezone.now)
     intro = RichTextField(blank = True) 
     body = StreamField([
         ('h1', blocks.CharBlock(form_classname='title')),
